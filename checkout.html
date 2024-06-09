@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body-content">
+        <header>
+            <h1 class="H1"> 
+                <img class="cactus-logo"
+                src="images/cactus.jpeg" 
+                alt="cactus logo.">
+            </h1>
+            <nav>
+                <div class="nav-list">
+                    <a class="list" href="index.html">Home</a>
+                    <a class="list" href="productlisting.html">Products</a>
+                    <a class="list" href="mycart.html"><img src="./images/Cart.png" class="cartimg"></a>
+                </div>
+            </nav>
+        </header>
+    
+    
+        <h2>Checkout</h2>
+    
+        <form>
+            <div>
+                <div>First Name:</div>
+                <input type="text" name="fullname">
+            </div>
+
+            <div>
+                <div>Last Name:</div>
+                <input type="text" name="fullname">
+            </div>
+        
+            <div>
+                <div>Email:</div>
+                <input type="text" name="email">
+            </div>
+
+            <div>
+                <div>Phone Number:</div>
+                <input type="text" name="phonenumber">
+            </div>
+        
+            <div>
+                <div>Address:</div>
+                <textarea name="text"></textarea>
+            </div>
+
+            
+            <div>
+                <div>Zip Code:</div>
+                <input type="text" name="zipcode">
+            </div>
+        
+            <div>
+                <div>Credit Card Number:</div>
+                <input type="text" name="creditcard">
+            </div>
+
+            <div>
+                <div>Expiry Date:</div>
+                <input type="text" name="expiry">
+            </div>
+            <div>
+                <div>CVV:</div>
+                <input type="text" name="cvv">
+            </div>
+
+            <div>
+                <div id="shipping"> Shipping Method:</div>
+                    <select name="shipping">
+                        <option value="standard">Standard Shipping (5-8 days)</option>
+                        <option value="express">Express Shipping (1-2 days)</option>
+                    </select>
+            </div>
+        </form>
+
+        <button type="submit">Confirm Order</button>
+
+        <footer>&copy CodeMasterFlex 2024</footer>
+    </div> 
+</body>
+</html>
